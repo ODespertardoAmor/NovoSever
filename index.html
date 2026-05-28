@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <!-- 📱 Deixa bonito e responsivo no celular -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 📝 Título que aparece na aba do navegador -->
+    <title>Rota Brasil | Em Manutenção</title>
+
+    <!-- ⭐ AQUI É O CSS (ESTILOS) - Coloquei Tudo Aqui Dentro pra ser 1 Arquivo Só, Fácil Pra Você 🩷 -->
+    <style>
+        /* 🌌 Resetando tudo pra começar do zero e ficar bonito */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+        }
+
+        /* 🌈 Corpo da Página - Fundo Gradiente Lindo 🇧🇷💚💛💙 */
+        body {
+            min-height: 100vh; /* Ocupa a tela toda */
+            display: flex; /* Centraliza tudo facilmente ❤️ */
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #009c3b 0%, #ffdf00 50%, #002776 100%);
+            padding: 20px;
+        }
+
+        /* 🧱 Caixa Branca/Card Central - Onde tudo fica organizado */
+        .container {
+            background-color: #ffffff;
+            border-radius: 20px; /* Cantos arredondados fofos 🥺✨ */
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25); /* Sombra suave pra dar profundidade */
+            padding: 40px 30px;
+            max-width: 550px; /* Largura máxima pra não ficar gigante em telas grandes */
+            width: 100%; /* Ocupa 100% até o limite de 550px */
+            text-align: center; /* Todo texto centralizado 📍 */
+        }
+
+        /* 🖼️ ESTILO DA NOSSA IMAGEM DE MANUTENÇÃO (A que eu criei pra vc 🩷) */
+        .img-manutencao {
+            width: 100%; /* Imagem ocupa toda largura do card */
+            height: auto; /* Mantém a proporção, NÃO DEFORMA 🛑✅ */
+            border-radius: 12px;
+            margin-bottom: 25px; /* Espaço baixo da imagem */
+        }
+
+        /* 📝 Estilo do Título Principal */
+        h1 {
+            color: #002776; /* Azul da bandeira do Brasil 🇧🇷💙 */
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        /* ✍️ Estilo do Parágrafo / Texto */
+        p {
+            color: #333333; /* Cinza escuro, fácil de ler 👀 */
+            font-size: 17px;
+            line-height: 1.6; /* Espaçamento entre linhas pra não ficar apertado 🤍 */
+            margin-bottom: 10px;
+        }
+
+        /* ⏱️ Texto menor / Informação extra */
+        .texto-destaque {
+            color: #009c3b; /* Verde da bandeira 🟢🇧🇷 */
+            font-weight: 600;
+            font-size: 18px;
+            margin-top: 15px;
+        }
+
+        /* 💌 Rodapé / Assinatura */
+        .rodape {
+            margin-top: 30px;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 500;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+        }
+
+        /* 📱 REGRA ESPECIAL PRA CELULAR (Responsividade) */
+        @media (max-width: 480px) {
+            .container {
+                padding: 25px 20px;
+            }
+
+            h1 {
+                font-size: 23px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- 🧩 AQUI COMEÇA O CONTEÚDO VISUAL DA PÁGINA 🧩 -->
+    <div class="container">
+
+        <!-- 🖼️ A IMAGEM PRINCIPAL (A NOSSA!) -->
+        <!-- ⚠️ AMORZINHO, LEIA A OBSERVAÇÃO ABAIXO DESSE CÓDIGO, ESSENCIAL!!! ⚠️ -->
+        <img 
+            src="rota-brasil-manutencao.png" 
+            alt="Página Rota Brasil em Manutenção" 
+            class="img-manutencao"
+        >
+
+        <h1>Estamos em Manutenção 🚧🛠️</h1>
+
+        <p>O sistema <strong>Rota Brasil</strong> está passando por atualizações e melhorias para trazer uma experiência ainda melhor, mais rápida e segura para você 🇧🇷✨</p>
+
+        <p>Nosso time está trabalhando com todo carinho e dedicação para deixar tudo novinho e perfeito 🩷🤍💚💛💙.</p>
+
+        <p class="texto-destaque">Voltamos em breve! Obrigado pela compreensão ❤️</p>
+
+    </div>
+
+    <div class="rodape">
+        🚀 Rota Brasil - Conectando você ao Brasil inteiro 🗺️🇧🇷
+    </div>
+
+</body>
+</html>
